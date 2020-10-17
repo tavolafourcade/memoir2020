@@ -12,4 +12,5 @@ Steps To Contribute to This Repo
 4. Add the description of the momment that inspires you.
 5. Link your Github, Linkedin and Instagram accounts to get in touch with other people.
 6. List your account in CONTRIBUTORS.md
-7. Done!
+7. Make your pull request to the HacktoberFestChallenge branch only.
+8. Done!
