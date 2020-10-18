@@ -1,5 +1,4 @@
-let colors = ["#F88F0D", "#04B4EC", "#F32628", "#04FB97"];
-
+let colors = ["#5AABD6", "#E5BD64", "#B76B14","#994922"," #505215","#6E691D"];
 let randomColor = (colors) => {
   let rndNum = Math.floor(Math.random() * 6);
   let rndColor = colors[rndNum];
@@ -12,15 +11,7 @@ document.querySelectorAll(".random-color").forEach(item => {
   html = "";
   for (let i = 0; i < txt.length; i++){
     let rndColor = randomColor(colors);
-
-    if(i===17) html += `<br>`
-
-    if(i>17) {
-      html += `<span style="color:${rndColor}; font-weight: 800; font-size: 8rem;" class="crazy">${txt.charAt(i)}</span>`; 
-    } else {
-      html += `<span style="color:${rndColor}">${txt.charAt(i)}</span>`; 
-      // html += "<span style=color:" + rndColor + ">" + txt.charAt(i) + "</span>"; 
-    }
+    html += "<span style=color:" + rndColor + ">" + txt.charAt(i) + "</span>"; 
   }
   item.innerHTML = html; //set the html to each letter
 }); 
@@ -35,6 +26,7 @@ let text = document.getElementsByClassName("random-color")[0].childNodes;
 text.forEach(letter => {
     letter.style.color = randomColor(colors);
 });
+ 
 }
 
 
@@ -57,7 +49,7 @@ let colorDivChange = () => {
   setInterval(function(){
     colorTextChange();
     
-  }, 800);
+  }, 700);
 
   setInterval(function(){
     colorDivChange();
