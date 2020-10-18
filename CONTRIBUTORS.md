@@ -2,5 +2,7 @@
 
 # Contributors
 
--[@tavolafourcade](https://github.com/tavolafourcade)
+-[@tavolafourcade](https://github.com/tavolafourcade)<br>
+-[@haleydemos](https://github.com/hdemos)
 -[@ridwankustanto](https://github.com/ridwankustanto)
+
