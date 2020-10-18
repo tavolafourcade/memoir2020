@@ -112,6 +112,11 @@ h3 { font-size: 3rem; font-weight: 800; }
   width: 100%;
 }
 
+/* Align Content Card*/
+.align-card-content{
+  text-align: justify;
+}
+
 /* Animaiton for 2020 in heading */
 
 .crazy {
