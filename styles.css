@@ -1,9 +1,9 @@
 :root {
   --text: #041623;
-  --teal: #04FBFB;
-  --earth_yellow: #FCFC04;
-  --army_green: #48CA72;
-  --carolina_blue: #0434EC;
+  --teal: #04fbfb;
+  --earth_yellow: #fcfc04;
+  --army_green: #48ca72;
+  --carolina_blue: #0434ec;
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Manrope', "Helvetica Neue", "Segoe UI", Roboto, sans-serif;
+  font-family: "Manrope", "Helvetica Neue", "Segoe UI", Roboto, sans-serif;
   position: relative;
 }
 
@@ -70,7 +70,8 @@ body {
 @keyframes zoom {
   from {
     transform: scale(2) rotate(0);
-  } to {
+  }
+  to {
     transform: scale(1) rotate(360);
   }
 }
@@ -94,18 +95,23 @@ body {
 
 .custom-styling {
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
-
 
 .random-color span {
   transition: all 0.7s ease-in-out;
 }
 
-
 /* Typography */
-h1 { font-size: 5.4rem; font-weight: 200; text-shadow: 0 2px 5px rgba(0,0,0,0.15);}
-h3 { font-size: 3rem; font-weight: 800; }
+h1 {
+  font-size: 5.4rem;
+  font-weight: 200;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 800;
+}
 
 /* Spanning the button in card to 100% */
 .card-action a.btn {
@@ -118,9 +124,23 @@ h3 { font-size: 3rem; font-weight: 800; }
   display: inline-block;
   margin-top: 1rem;
   transition: all 0.7s ease-in-out;
-  text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .crazy:hover {
   transform: rotate(360deg) rotateX(720deg);
+}
+
+.custom-styling-card {
+  margin-top: 50px;
+}
+
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.align-text {
+  text-align: justify;
+  font-size: 12px;
 }
