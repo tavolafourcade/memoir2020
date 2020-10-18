@@ -1,19 +1,19 @@
 :root {
-  --text: #272324;
-  --teal: #83b799;
-  --earth_yellow: #e5bd64;
-  --army_green: #505215;
-  --carolina_blue: #5aabd6;
+  --text: #041623;
+  --teal: #04FBFB;
+  --earth_yellow: #FCFC04;
+  --army_green: #48CA72;
+  --carolina_blue: #0434EC;
 }
 
 * {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
+  font-family: 'Manrope', "Helvetica Neue", "Segoe UI", Roboto, sans-serif;
   position: relative;
 }
 
@@ -58,6 +58,12 @@ body {
   transform: rotate(80deg);
 }
 
+.circle,
+.square,
+.triangle {
+  transition: all 0.7s ease-in-out;
+}
+
 .header {
   padding-top: 20px;
 }
@@ -78,4 +84,32 @@ body {
 .custom-styling {
   margin-top: 50px;
   margin-bottom: 100px;
+}
+
+
+.random-color span {
+  transition: all 0.7s ease-in-out;
+}
+
+
+/* Typography */
+h1 { font-size: 5.4rem; font-weight: 200; text-shadow: 0 2px 5px rgba(0,0,0,0.15);}
+h3 { font-size: 3rem; font-weight: 800; }
+
+/* Spanning the button in card to 100% */
+.card-action a.btn {
+  width: 100%;
+}
+
+/* Animaiton for 2020 in heading */
+
+.crazy {
+  display: inline-block;
+  margin-top: 1rem;
+  transition: all 0.7s ease-in-out;
+  text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.crazy:hover {
+  transform: rotate(360deg) rotateX(720deg);
 }
